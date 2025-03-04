@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #333;
+  --text-color: #fff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.main {
+  transform: scale(1.75);
+}
+
+.footer-link {
+  font-size: 1.2rem;
+  transform: scale(1.75);
+  color: var(--text-color);
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
